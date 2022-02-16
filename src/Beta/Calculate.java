@@ -22,6 +22,7 @@ public class Calculate extends JFrame{
     private JPanel painel;
     private JTextField exibir;
     private JButton equals;
+    private JButton cleanButon;
     private int num1 = 0 ;
     private int identificador = 0 ;
 
@@ -153,6 +154,13 @@ public class Calculate extends JFrame{
                         identificador = 0;
                     }
                 }
+            }
+        });
+        cleanButon.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                num1 = 0 ;
+                exibir.setText(null);
             }
         });
     }
