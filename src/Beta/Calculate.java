@@ -172,6 +172,7 @@ public class Calculate extends JFrame{
 
     public static void main(String[] args) {
         Calculate c1 = new Calculate();
+        c1.setSize(520,480);
         c1.setContentPane(new Calculate().painel);
         c1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         c1.setVisible(true);
