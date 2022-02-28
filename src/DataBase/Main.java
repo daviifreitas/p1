@@ -8,7 +8,7 @@ public class Main {
         int options ;
 
         external : do{
-            System.out.println("\n\n\n\n\nWelcome to the system !!!\n\nDo you want create any data base press-1\nView the data base press-2\nChange data type-3 \nFor delete data type -4");
+            System.out.println("\n\n\n\n\nWelcome to the system !!!\n\nDo you want create any data base press-1\nView the data base press-2\nChange data type-3 \nFor delete data type -4\n\nType here : ");
             options = input.nextInt();
             switch (options){
                 case 1 :
